@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Yash Dubey — DevOps Engineer</title>
+  <meta name="description" content="Portfolio of Yash Dubey — DevOps engineer specializing in infrastructure automation, CI/CD and container orchestration." />
+  <meta property="og:title" content="Yash Dubey — DevOps Engineer" />
+  <meta property="og:description" content="Infrastructure Automation · Terraform · Ansible · Kubernetes · CI/CD" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1>Yash Dubey</h1>
+      <p class="subtitle">DevOps Engineer — Infrastructure Automation · CI/CD · Cloud Native</p>
+      <div class="hero-cta">
+        <a class="btn" href="#projects">View Projects</a>
+        <a class="btn outline" href="YashDubey_Resume.pdf" target="_blank">Download Resume</a>
+      </div>
+      <p class="contact-small">Email: <a href="mailto:youremail@example.com">youremail@example.com</a> • GitHub: <a href="https://github.com/Yashdubey455">github.com/Yashdubey455</a></p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about" class="card">
+      <h2>About</h2>
+      <p>I am a DevOps engineer who builds reliable, scalable infrastructure and CI/CD pipelines. I specialize in Terraform, Ansible, Docker, Kubernetes, Jenkins and GitHub Actions. I enjoy automating repetitive tasks, improving deployment reliability and mentoring teams to adopt GitOps practices.</p>
+    </section>
+
+    <section id="skills" class="card">
+      <h2>Core Skills</h2>
+      <ul class="skills-grid">
+        <li>Infrastructure as Code — Terraform</li>
+        <li>Configuration Management — Ansible</li>
+        <li>CI/CD — Jenkins, GitHub Actions, ArgoCD</li>
+        <li>Containers & Orchestration — Docker, Kubernetes</li>
+        <li>Monitoring & Logging — Prometheus, Grafana, ELK</li>
+        <li>Cloud & Networking — AWS / GCP basics</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="card">
+      <h2>Selected Projects</h2>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3>Infrastructure Automation (Terraform)</h3>
+          <p>Provisioned VPC, subnets, and managed Kubernetes cluster using Terraform modules. Implemented state management and CI checks.</p>
+          <p class="small">Tech: Terraform · AWS · GitHub Actions</p>
+          <a href="https://github.com/Yashdubey455/project-terraform" target="_blank" class="link">View on GitHub →</a>
+        </article>
+
+        <article class="project-card">
+          <h3>CI/CD Pipelines (Jenkins & GitHub Actions)</h3>
+          <p>Designed multi-branch pipelines with automated testing, container builds, and canary deployments to Kubernetes.</p>
+          <p class="small">Tech: Jenkins · GitHub Actions · Docker · Kubernetes</p>
+          <a href="https://github.com/Yashdubey455/project-ci" target="_blank" class="link">View on GitHub →</a>
+        </article>
+
+        <article class="project-card">
+          <h3>Kubernetes GitOps (ArgoCD)</h3>
+          <p>Implemented GitOps workflow using ArgoCD for continuous delivery and drift detection across environments.</p>
+          <p class="small">Tech: ArgoCD · Helm · Kubernetes</p>
+          <a href="https://github.com/Yashdubey455/project-argocd" target="_blank" class="link">View on GitHub →</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="card">
+      <h2>Experience</h2>
+      <div class="timeline">
+        <div class="tl-item">
+          <h3>DevOps Engineer — Company Name</h3>
+          <p class="small">Month Year – Present</p>
+          <ul>
+            <li>Built automated pipelines reducing deployment time by X%.</li>
+            <li>Implemented IaC across multiple environments.</li>
+          </ul>
+        </div>
+        <div class="tl-item">
+          <h3>Site Reliability / Infra Role — Previous</h3>
+          <p class="small">Month Year – Month Year</p>
+          <ul>
+            <li>Managed Kubernetes clusters and improved observability.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p>If you'd like to work together or have an opportunity, email me at <a href="mailto:youremail@example.com">youremail@example.com</a> or send a message using the form below.</p>
+      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="contact-form">
+        <label><span>Name</span><input name="name" required></label>
+        <label><span>Email</span><input name="email" type="email" required></label>
+        <label><span>Message</span><textarea name="message" rows="5" required></textarea></label>
+        <div><button class="btn" type="submit">Send message</button></div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Yash Dubey — <a href="https://github.com/Yashdubey455">GitHub</a></p>
+    </div>
+  </footer>
+
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
