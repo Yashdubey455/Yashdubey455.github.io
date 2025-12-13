@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Yash Dubey — DevOps Engineer</title>
+  <meta name="description" content="DevOps Engineer | AWS · Kubernetes · CI/CD · GitOps · Cloud Native" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="hero">
+  <div class="container">
+    <div class="hero-left">
+      <h1>Yash Dubey</h1>
+      <p class="subtitle">DevOps Engineer — Infrastructure Automation · CI/CD · Cloud Native</p>
+
+      <div class="cta">
+        <a class="btn" href="#projects">View Projects</a>
+        <a class="btn outline" href="YashDubey_Resume.pdf" target="_blank">Download Resume</a>
+      </div>
+
+      <p class="contact-line">
+        <strong>Email:</strong> <a href="mailto:yashdubey455@gmail.com">yashdubey455@gmail.com</a> ·
+        <strong>GitHub:</strong> <a href="https://github.com/Yashdubey455" target="_blank">github.com/Yashdubey455</a>
+      </p>
+    </div>
+
+    <div class="hero-right">
+      <div class="profile-card">
+        <div class="initials">YD</div>
+        <p class="role">DevOps · SRE</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+
+<section class="card">
+  <h2>About</h2>
+  <p>
+    I build reliable, secure, and scalable cloud-native infrastructure and CI/CD pipelines.
+    I specialize in Kubernetes, GitOps, Infrastructure as Code, and observability with a
+    strong DevSecOps mindset.
+  </p>
+</section>
+
+<section class="card">
+  <h2>Core Skills</h2>
+  <ul class="skill-list">
+    <li>AWS</li><li>Kubernetes</li><li>Docker</li><li>Terraform</li><li>Ansible</li>
+    <li>Jenkins</li><li>GitHub Actions</li><li>GitLab CI</li><li>ArgoCD</li>
+    <li>Prometheus</li><li>Grafana</li><li>Istio</li><li>Trivy</li><li>SonarQube</li>
+  </ul>
+</section>
+
+<section id="projects" class="card">
+  <h2>Selected Projects</h2>
+
+  <article class="project-card">
+    <h3>AWS EKS 3-Tier Microservices with Istio</h3>
+
+    <p>
+      Deployed a production-ready three-tier microservices application on Amazon EKS,
+      integrated with Istio service mesh for secure traffic management, observability,
+      and service-to-service communication.
+    </p>
+
+    <div class="project-images">
+      <img src="data:image/jpeg;base64,{{KIALI_BASE64}}" alt="Istio Kiali service mesh graph">
+      <img src="data:image/jpeg;base64,{{APP_BASE64}}" alt="Live application deployed on AWS EKS">
+      <img src="data:image/jpeg;base64,{{EKS_BASE64}}" alt="Amazon EKS cluster console">
+    </div>
+
+    <p class="small">
+      Tech: AWS EKS · Kubernetes · Docker · MongoDB · Istio · Prometheus · Grafana · Kiali · Jaeger
+    </p>
+
+    <a class="link" href="https://lnkd.in/dSins2ay" target="_blank">View on GitHub →</a>
+  </article>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <p>© <span id="year"></span> Yash Dubey</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
